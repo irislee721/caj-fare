@@ -1,12 +1,12 @@
 
 plugins {
-	id 'io.spring.dependency-management' version '1.0.14.RELEASE'
 	id "org.sonarqube" version "3.4.0.2513"
 	id 'java'
 	id 'jacoco'
 }
 
 apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
 jacocoTestReport {
     reports {
