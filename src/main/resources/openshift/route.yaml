@@ -2,7 +2,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: caj-fare
-  namespace: caj-fare
 spec:
   to:
     kind: Service
