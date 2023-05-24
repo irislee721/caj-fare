@@ -2,7 +2,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: caj-fare
-  namespace: caj-fare
   labels:
     app: caj-fare
     service: caj-fare
